@@ -1,0 +1,7 @@
+<ul class="small-block-grid-3">
+{{#each model as |gif|}}
+  <li>{{#link-to 'gifs.view' gif}}<img class="cat-gif" src="{{gif.location}}" alt="{{gif.title}}"/>{{/link-to}}</li>
+{{else}}
+  <li class="alert">You have no cat gifs! This is terrible!</li>
+{{/each}}
+</ul>

@@ -1,0 +1,14 @@
+.cat-gif {
+  margin: 3px;
+  border: thin solid black;
+}
+
+.cat-gif:hover {
+  border: thin solid blue;
+}
+
+.cat-gif-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
